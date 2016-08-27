@@ -13,21 +13,21 @@
 
 ## Intermediate documents:
 **/*.dvi
-*-converted-to.*
+**/*-converted-to.*
 # these rules might exclude image files for figures etc.
 # **/*.ps
 # **/*.eps
 # **/*.pdf
 
 ## Generated if empty string is given at "Please type another file name for output:"
-.pdf
+**/.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 **/*.bbl
 **/*.bcf
 **/*.blg
-*-blx.aux
-*-blx.bib
+**/*-blx.aux
+**/*-blx.bib
 **/*.brf
 **/*.run.xml
 
@@ -45,7 +45,7 @@
 **/*.loa
 
 # achemso
-acs-*.bib
+**/acs-*.bib
 
 # amsthm
 **/*.thm
@@ -86,7 +86,7 @@ acs-*.bib
 **/*.glsdefs
 
 # gnuplottex
-*-gnuplottex-*
+**/*-gnuplottex-*
 
 # gregoriotex
 **/*.gaux
@@ -96,10 +96,10 @@ acs-*.bib
 **/*.brf
 
 # knitr
-*-concordance.tex
+**/*-concordance.tex
 # TODO Comment the next line if you want to keep your tikz graphics files
 **/*.tikz
-*-tikzDictionary
+**/*-tikzDictionary
 
 # listings
 **/*.lol
@@ -119,7 +119,7 @@ acs-*.bib
 **/*.mtc[1-9][0-9]
 
 # minted
-_minted*
+**/_minted*
 **/*.pyg
 
 # morewrites
@@ -142,7 +142,7 @@ _minted*
 # sympy
 **/*.sout
 **/*.sympy
-sympy-plots-for-*.tex/
+**/sympy-plots-for-*.tex/
 
 # pdfcomment
 **/*.upa
@@ -150,7 +150,7 @@ sympy-plots-for-*.tex/
 
 # pythontex
 **/*.pytxcode
-pythontex-files-*/
+**/pythontex-files-*/
 
 # thmtools
 **/*.loe
@@ -177,7 +177,7 @@ pythontex-files-*/
 **/*.fff
 
 # Latexian
-TSWLatexianTemp*
+**/TSWLatexianTemp*
 
 ## Editors:
 # WinEdt
@@ -185,10 +185,10 @@ TSWLatexianTemp*
 **/*.sav
 
 # Texpad
-.texpadtmp
+**/.texpadtmp
 
 # Kile
 **/*.backup
 
 # KBibTeX
-*~[0-9]*
+**/*~[0-9]*
